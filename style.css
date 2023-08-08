@@ -2,7 +2,7 @@
 body {
     background-color: rgb(73, 18, 246);
     color: white;
-    font-family: 'Arial';
+    font-family: 'Verdana';
 }
 
 input[type="button"] {
@@ -15,13 +15,16 @@ input[type="button"] {
 	color:#ffffff;
 	font-family: Arial;
 	font-size: 10px;
+    font-weight: bold;
 	padding:10px 31px;
 	text-decoration:none;
 	
 }
-a:visited {
-    color: white;
+
+a:link {
+    text-decoration: none;
 }
+
 
 .banner {
     display: flex;
@@ -38,6 +41,12 @@ a:visited {
     flex: 1;
 }
 
+.greyText {
+    color: rgb(189, 186, 186);
+    font-size: 10px;
+    font-weight: bold;
+}
+
 .science {
     display: flex;
     margin: 100px;
@@ -50,12 +59,25 @@ a:visited {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex: auto;
+    flex: 1;
     margin: auto 30px;
     padding: 50px;
+    font-size: 11px;
+}
+
+.blurbText {
+    margin: 30px;
+}
+
+.blurbImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
 }
 .signIn {
     align-items: flex-end;
     padding: 1px;
     margin-right: 100px;
+    
 }
