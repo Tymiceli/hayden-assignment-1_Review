@@ -1,0 +1,61 @@
+
+body {
+    background-color: rgb(73, 18, 246);
+    color: white;
+    font-family: 'Arial';
+}
+
+input[type="button"] {
+    background:linear-gradient(to bottom, #ea9f3d 5%, #ee7e39 100%);
+	background-color:#ea9f3d;
+	border-radius:28px;
+	border: 0px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Arial;
+	font-size: 10px;
+	padding:10px 31px;
+	text-decoration:none;
+	
+}
+a:visited {
+    color: white;
+}
+
+.banner {
+    display: flex;
+    
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 40px;
+    margin: 150px 20px 20px;
+    flex: 1;
+}
+
+.science {
+    display: flex;
+    margin: 100px;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: auto;
+    margin: auto 30px;
+    padding: 50px;
+}
+.signIn {
+    align-items: flex-end;
+    padding: 1px;
+    margin-right: 100px;
+}
