@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,62 @@
     <link rel="stylesheet" href="/style.css">
     <!-- My Repo -->
 </head>
+
 <body>
-    <div class="banner">
-        <div style="flex-grow: 1">
-            <img src="images/logo.png" alt="logo" style="width: 100px">
+    <div class="container">
+        <div class="banner">
+            <div style="flex-grow: 1">
+                <img src="images/logo.png" alt="logo" style="width: 100px">
+            </div>
+            <div class="sign-in">
+                <a class="greyText" href="" style="padding: 5px; margin-right: 5px;">Sign In</a>
+                <input type="button" value="Try for free">
+            </div>
         </div>
-        <div class="signIn">
-            <a class="greyText" href="" style="padding: 5px; margin-right: 5px;">Sign In</a>
-            <input type="button" value="Try for free">
-        </div>
-    </div>
 
-    <div class="info">
-        <div>
-        <p style="font-size: 20px; font-weight: lighter;">Functional Music to Improve</p>  
-        <h2>Focus in 15 Minutes</h2>  
-        <p class="greyText">Our science-first approach creates music that sounds-and affects your brain differently-than any other music.</p>
-        <p class="greyText" style="font-size: 5px">FEATURED IN</p>
-        <img src="images/clout.png" alt="featured in" style="width: 17em;"></br>
-        <input type="button" value="Try 5 free sessions" style="margin: 10px;"> 
+        <div class="info">
+            <div class = "copy" style="z-index: 1; margin-right: -30px;">
+                <p style="font-size: 20px; font-weight: lighter;">Functional Music to Improve</p>
+                <h2>Focus in 15 Minutes</h2>
+                <p class="greyText">Our science-first approach creates music that sounds-and affects your brain
+                    differently-than any other music.</p>
+                <p class="greyText" style="font-size: 5px">FEATURED IN</p>
+                <img src="images/clout.png" alt="featured in" style="width: 17em;"></br>
+                <input type="button" value="Try 5 free sessions" style="margin: 10px;">
+            </div>
+            <div style = "z-index: 0;">
+                <img src="images/picture-1.gif" alt="guy working" style="width: 100%">
+            </div>
         </div>
-        <div>
-        <img src="images/picture-1.gif" alt="guy working" style="width: 100%"> 
+        <div class="science grey-text" :>
+            <p>Wanna see the science?</p>
+        </div>
+        <div class="bottom-section">
+            <div class="blurb-text" style="margin-right: 50px">
+                <img class="blurb-image" src="images/picture-2.gif" alt="brainwaves" style="width: 100%;">
+                <h3>Patented Technology</h3>
+                <p>Brain.fm holds patents on key processes for creating function music, including technology to elicit
+                    <strong>strong neural phase locking</strong>-allowing populations of neurons to engage in various
+                    kinds
+                    of coordinated activity-and technology to remove distraction in sound.
+                </p>
+                <p>This makes our music unique, purpose-built to steer you into a desired mental state. In other words,
+                    we've found new ways to create music that helps you do what you need to do.</p>
+                <p style="text-decoration: underline;">Explore More of Our Science</p>
+            </div>
+            <div class="blurb-text">
+                <img class="blurb-image" src="images/picture-3.png" alt="brain tests" style="width: 100%;">
+                <h3>Tested on Brain and Behavior</h3>
+                <p>Scientists at Brain.fm work with collaborators at academic institutions to run</p>
+                <p>We look at the effects of our technology on the brain, using fMRI and EEG, and also run large-scale
+                    behavioral tests, measuring performance on simple games.</p>
+                <p><strong>Our experiments always include a control condition ("placebo") </strong>of the same
+                    underlying
+                    music without Brain.fm technology applied, so we can be sure our tech is what makes the difference.
+                </p>
+            </div>
         </div>
     </div>
-    <div class="science greyText":>
-        <p>Wanna see the science?</p>
-    </div>
-    <div class="blurb">
-        <div class="blurbText">
-            <img class="blurbImage" src="images/picture-2.gif" alt="brainwaves">
-            <h3>Patented Technology</h3>
-            <p>Brain.fm holds patents on key processes for creating function music, including technology to elicit <strong>strong neural phase locking</strong>-allowing populations of neurons to engage in various kinds of coordinated activity-and technology to remove distraction in sound.</p>
-            <p>This makes our music unique, purpose-built to steer you into a desired mental state. In other words, we've found new ways to create music that helps you do what you need to do.</p>
-            <p style="text-decoration: underline;">Explore More of Our Science</p>
-        </div>
-        <div class="blurbText">
-            <img class="blurbImage" src="images/picture-3.png" alt="brain tests">
-            <h3>Tested on Brain and Behavior</h3>
-            <p>Scientists at Brain.fm work with collaborators at academic institutions to run</p>
-            <p>We look at the effects of our technology on the brain, using fMRI and EEG, and also run large-scale behavioral tests, measuring performance on simple games.</p>
-            <p><strong>Our experiments always include a control condition ("placebo") </strong>of the same underlying music without Brain.fm technology applied, so we can be sure our tech is what makes the difference.</p>
-        </div>
-    </div>
-
 </body>
+
 </html>
